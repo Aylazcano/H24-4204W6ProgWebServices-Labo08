@@ -253,3 +253,4 @@ C:\Users\0370102\Desktop\H24-4204W6ProgWebServices-Labo08\obj\Debug\net6.0\refin
 C:\Users\0370102\Desktop\H24-4204W6ProgWebServices-Labo08\obj\Debug\net6.0\H24-4204W6ProgWebServices-Labo08.pdb
 C:\Users\0370102\Desktop\H24-4204W6ProgWebServices-Labo08\obj\Debug\net6.0\H24-4204W6ProgWebServices-Labo08.genruntimeconfig.cache
 C:\Users\0370102\Desktop\H24-4204W6ProgWebServices-Labo08\obj\Debug\net6.0\ref\H24-4204W6ProgWebServices-Labo08.dll
+C:\Users\0370102\Desktop\H24-4204W6ProgWebServices-Labo08\bin\Debug\net6.0\package-lock.json

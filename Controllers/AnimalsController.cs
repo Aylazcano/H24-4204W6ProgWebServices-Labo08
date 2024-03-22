@@ -10,7 +10,7 @@ using H24_4204W6ProgWebServices_Labo08.Models;
 
 namespace H24_4204W6ProgWebServices_Labo08.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class AnimalsController : ControllerBase
     {
@@ -97,7 +97,8 @@ namespace H24_4204W6ProgWebServices_Labo08.Controllers
         }
 
         // DELETE: api/Animals/5
-        [HttpDelete("{id}")]
+        [HttpPost]
+        [Route("/api/destroy/{id}")]
         public async Task<IActionResult> DeleteAnimal(int id)
         {
             if (_context.Animal == null)
