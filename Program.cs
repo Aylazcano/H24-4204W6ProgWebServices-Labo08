@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using H24_4204W6ProgWebServices_Labo08.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<H24_4204W6ProgWebServices_Labo08Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("H24_4204W6ProgWebServices_Labo08Context") ?? throw new InvalidOperationException("Connection string 'H24_4204W6ProgWebServices_Labo08Context' not found.")));
 
 // Add services to the container.
 

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\H24-4204W6ProgWebServices-Labo08.props" />
+</Project>
