@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Animal } from 'src/models/animal';
-import { lastValueFrom } from 'rxjs';
+import { last, lastValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +22,9 @@ export class AppComponent {
 
   // Récupère tous les animaux dans la base de données
   async getAnimals(): Promise<void> {
-    // A
+    let x = await lastValueFrom(this.http.get<Animal[]>("http://localhost:7256/api/Animals/GetAnimal"));
+    console.log(x);
+    this.animals = x;
   }
 
   // Ajoute un animal dans la base de données
@@ -32,7 +34,9 @@ export class AppComponent {
 
   // Récupère un animal en particulier dans la base de données
   async getAnimal(): Promise<void> {
-    // I
+    let x = await lastValueFrom(this.http.get<Animal>("http://localhost:7256/api/Animals/GetAnimal/{id}"));
+    console.log(x);
+    this.animal = x;
   }
 
   // Modifie (ou crée) un animal en particulier dans la base de données
