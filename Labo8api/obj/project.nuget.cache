@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRQJQVq995cgDmslp1MTCaZyYCa0FdC4B/kbeDYzDDaIwxaJ02QoZzI+PmT5pVAUImxnBlGstrtmkcr6iZz+vw==",
+  "dgSpecHash": "Kk1dP72cXuwF07PfjyiAzIA2dIs4syWRegcwJ/7kWR8OYujh/ExuP5HU6S7qt4EnOg6cyBdnl1O6DYoP2ugNCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\H24-4204W6ProgWebServices-Labo08.csproj",
+  "projectFilePath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\Labo8api\\H24-4204W6ProgWebServices-Labo08.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\0370102\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\0370102\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -11117,11 +11117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\H24-4204W6ProgWebServices-Labo08.csproj",
+      "projectUniqueName": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\Labo8api\\H24-4204W6ProgWebServices-Labo08.csproj",
       "projectName": "H24-4204W6ProgWebServices-Labo08",
-      "projectPath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\H24-4204W6ProgWebServices-Labo08.csproj",
+      "projectPath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\Labo8api\\H24-4204W6ProgWebServices-Labo08.csproj",
       "packagesPath": "C:\\Users\\0370102\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\obj\\",
+      "outputPath": "C:\\Users\\0370102\\Desktop\\H24-4204W6ProgWebServices-Labo08\\Labo8api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\0370102\\AppData\\Roaming\\NuGet\\NuGet.Config",
